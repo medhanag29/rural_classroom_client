@@ -949,6 +949,7 @@ const Course = () => {
                 <ChatBox
                   messages={filteredMessages}
                   handleMessage={handleMessage}
+                  setMessages={setMessages}
                 />
               </Paper>
             </Grid>
@@ -1464,6 +1465,7 @@ const Course = () => {
                 overlay
                 messages={filteredMessages}
                 handleMessage={handleMessage}
+                setMessages={setMessages}
               />
             </Box>
             <Stack
