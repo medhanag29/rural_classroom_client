@@ -275,7 +275,7 @@ const Test = () => {
 
         // Append roll numbers to FormData
         formData.append("rollNumbers", JSON.stringify(rollNumbersToSend));
-
+        formData.append("class_limit", JSON.stringify(classStrength));
         // Send the image and roll numbers to the server
         const response = await fetch(`${BASEML}/mcq-analysis`, {
           method: "POST",
