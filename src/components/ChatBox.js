@@ -73,7 +73,7 @@ const ChatBox = ({ sx, overlay, messages, handleMessage, setMessages }) => {
         }
       }
     })();
-  }, [handleMessage, language, mediaBlobUrl]);
+  }, [mediaBlobUrl]);
 
   const handleMic = () => {
     if ((status === "idle" || status === "stopped") && !isLoading) {

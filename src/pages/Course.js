@@ -662,7 +662,7 @@ const Course = () => {
         (rollNumber) => !studentPresent.includes(rollNumber)
       );
       formData.append("rollNumbers", JSON.stringify(rollNumbersToSend));
-
+      formData.append("class_limit", JSON.stringify(classStrength));
       // Send data to the server
       const response = await fetch(`${BASEML}/mcq-analysis`, {
         method: "POST",

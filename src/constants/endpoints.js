@@ -5,6 +5,7 @@ export const BASE = "https://rural-classroom-server.onrender.com";
 // export const BASEML = "https://5b88-203-110-242-13.ngrok-free.app";
 // export const BASEML = "https://0bef-203-110-242-13.ngrok-free.app";
 export const BASEML = "https://sweet-frequently-cardinal.ngrok-free.app";
+// export const BASEML = "http://localhost:8000";
 // export const BASE = "https://ruralclassroom.onrender.com";
 // file
 export const FILE_UPLOAD_ENDPOINT = BASE + "/file/upload";
