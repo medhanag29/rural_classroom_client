@@ -439,6 +439,16 @@ const Course = () => {
           )
           .then((res) => {
             console.log("message created");
+            //set last message id to be response _id
+            setMessages((messages) => {
+              const updatedMessages = [...messages];
+              updatedMessages[updatedMessages.length - 1] = {
+                ...updatedMessages[updatedMessages.length - 1],
+                _id: res.data.data._id,
+              };
+              return updatedMessages;
+            });
+            // add message to messages
           })
           .catch((err) => {
             console.log(err);
