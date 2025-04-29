@@ -4,7 +4,7 @@ export const BASE = "https://rural-classroom-server-5nsq.onrender.com";
 // export const BASE = "https://dfd4-106-196-7-104.ngrok-free.app";
 // export const BASEML = "https://5b88-203-110-242-13.ngrok-free.app";
 // export const BASEML = "https://0bef-203-110-242-13.ngrok-free.app";
-export const BASEML = "https://polecat-coherent-beagle.ngrok-free.app/";
+export const BASEML = "https://polecat-coherent-beagle.ngrok-free.app";
 // export const BASEML = "http://localhost:8000";
 // export const BASE = "https://ruralclassroom.onrender.com";
 // file
