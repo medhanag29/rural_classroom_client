@@ -30,7 +30,7 @@ const ChatBox = ({ sx, overlay, messages, handleMessage, setMessages }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [language, setLanguage] = useState("en");
   const [error, setError] = useState(null); // To handle recording errors
-  console.log("error", error);
+
   const {
     status,
     startRecording,
